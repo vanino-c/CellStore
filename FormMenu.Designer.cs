@@ -32,9 +32,7 @@
             this.buttonPhones = new System.Windows.Forms.Button();
             this.buttonProviders = new System.Windows.Forms.Button();
             this.buttonDeals = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelUser = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonSellers
@@ -78,16 +76,6 @@
             this.buttonDeals.UseVisualStyleBackColor = true;
             this.buttonDeals.Click += new System.EventHandler(this.buttonDeals_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CellStore.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 38);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(248, 57);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // labelUser
             // 
             this.labelUser.AutoSize = true;
@@ -104,7 +92,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(272, 323);
             this.Controls.Add(this.labelUser);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonDeals);
             this.Controls.Add(this.buttonProviders);
             this.Controls.Add(this.buttonPhones);
@@ -115,7 +102,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Связьфон";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMenu_FormClosed);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,7 +113,6 @@
         private System.Windows.Forms.Button buttonPhones;
         private System.Windows.Forms.Button buttonProviders;
         private System.Windows.Forms.Button buttonDeals;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelUser;
     }
 }
