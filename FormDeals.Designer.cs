@@ -33,6 +33,7 @@
             this.buttonAdd = new System.Windows.Forms.Button();
             this.listViewDeals = new System.Windows.Forms.ListView();
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -51,12 +52,10 @@
             this.textBoxPrice = new System.Windows.Forms.TextBox();
             this.labelPrice = new System.Windows.Forms.Label();
             this.labelSd = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelPayment = new System.Windows.Forms.Label();
             this.textBoxPayment = new System.Windows.Forms.TextBox();
             this.comboBoxSeller = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBoxTotal = new System.Windows.Forms.TextBox();
             this.labelTotal = new System.Windows.Forms.Label();
             this.comboBoxSd = new System.Windows.Forms.ComboBox();
@@ -66,7 +65,6 @@
             this.labelTotalP = new System.Windows.Forms.Label();
             this.textBoxNumber = new System.Windows.Forms.TextBox();
             this.labelNumber = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonDelete
@@ -125,6 +123,10 @@
             // columnHeader6
             // 
             this.columnHeader6.Text = "ID";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Продавец";
             // 
             // columnHeader12
             // 
@@ -294,16 +296,6 @@
             this.labelSd.TabIndex = 17;
             this.labelSd.Text = "Sd карта";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CellStore.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 398);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(110, 31);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
             // labelPayment
             // 
             this.labelPayment.AutoSize = true;
@@ -345,10 +337,6 @@
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 18;
             this.label2.Text = "Продавец";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Продавец";
             // 
             // textBoxTotal
             // 
@@ -479,13 +467,11 @@
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.listViewDeals);
-            this.Controls.Add(this.pictureBox1);
             this.MaximumSize = new System.Drawing.Size(816, 478);
             this.MinimumSize = new System.Drawing.Size(816, 478);
             this.Name = "FormDeals";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Сделки";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -498,7 +484,6 @@
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.ListView listViewDeals;
         private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ColumnHeader columnHeader12;
         private System.Windows.Forms.Label labelProvider;
         private System.Windows.Forms.Label label1;
